@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+
+/* all start */
+* {
+  box-sizing: border-box;
+}
+/* all end */
+
+
+
+/* body start */
+body {
+  margin: 0px;
+  background-image: url(https://user-images.githubusercontent.com/40338889/44102421-94a4e9ba-a024-11e8-8595-b350dfeede88.jpg);
+  background-size: cover;
+}
+/* body end */
+
+
+
+
+
+/* header start */
+.header {
+  height: 170px
+}
+
+
+.header-logo {
+  font-family:'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  line-height: 170px;
+}
+/* header end */
+
+
+
+
+
+/* main start */
+.main {
+  height: 650px;
+}
+
+
+.main-word {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+}
+
+
+.main-containers { 
+  /* common */
+  overflow: hidden;
+  
+  /* different */
+  margin: 40px 60px 0 60px;
+  
+  /* test */
+  height: 430px;
+  text-align: center;
+  line-height: 430px;
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  color: white;
+  opacity: 0.9;
+}
+
+
+/* 一時保存cssにmain-containerあり */
+
+
+.main-sns {
+  /* common */
+  text-align: center;
+  overflow: hidden;
+  
+  /* different*/
+  margin-top: 60px;
+}
+
+
+.main-sns i {
+  /* common */
+  color: white;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  
+  /* different */
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 25px;
+}
+
+
+.main-sns i:hover {
+  color: black;
+  background-color: bisque;
+  opacity: 0.5;
+  background: rgba();
+}
+/* main end */
+
+
+
+
+
+/* footer start */
+.footer {
+  background-color: black;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100px;
+}
+
+
+.footer-logo {
+  font-family:'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+
+
+.footer-copy-right {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+/* footer end */
+
+
+
+
+
+/* tablet madia */
+@media(max-width: 1000px) {
+  
+  .main-container {
+    height: 220px;
+    width: 50%;
+  }
+
+  .main-sns {
+    margin-top: 50px;
+  }
+  
+}
+/* tablet media end */
+
+
+
+
+
+/* smartphone media */
+@media(max-width: 350px) {
+
+  .main-containers {
+    margin: 40px 25px 0 25px;
+  }
+  
+  .main-container {
+    height: 115px;
+    width: 100%;
+  }
+
+  .main-sns {
+    margin-top: 35px;
+  }
+
+  .main-sns i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+  
+  .main-containers { 
+    /* test */
+    font-size: 30px;
+  }
+}
+/* smartphone media end */
+
+
+
+
