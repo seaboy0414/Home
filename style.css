@@ -62,10 +62,10 @@ body {
 .main-containers { 
   /* common */
   overflow: hidden;
-  
+
   /* different */
   margin: 40px 60px 0 60px;
-  
+
   /* test */
   height: 430px;
   text-align: center;
@@ -76,6 +76,17 @@ body {
   opacity: 0.9;
 }
 
+/* YouTube */
+.youtube {
+  width: 560px;
+  height: 315px;
+}
+
+/* shark */
+.shark {
+  width: 400px;
+  height: 400px;
+}
 
 /* 一時保存cssにmain-containerあり */
 
@@ -84,7 +95,7 @@ body {
   /* common */
   text-align: center;
   overflow: hidden;
-  
+
   /* different*/
   margin-top: 60px;
 }
@@ -96,7 +107,7 @@ body {
   background-color: black;
   background: rgba(0, 0, 0, 0.5); 
   border-radius: 10px;
-  
+
   /* different */
   margin: 0 10px;
   height: 50px;
@@ -150,7 +161,7 @@ body {
 
 /* tablet madia */
 @media(max-width: 1000px) {
-  
+
   .main-container {
     height: 220px;
     width: 50%;
@@ -160,6 +171,18 @@ body {
     margin-top: 50px;
   }
   
+  /* YouTube */
+  .youtube {
+    width: 480px;
+    height: 270px;
+  }
+  
+  /* shark */
+  .shark {
+    width: 350px;
+    height: 350px;
+  }
+
 }
 /* tablet media end */
 
@@ -173,7 +196,7 @@ body {
   .main-containers {
     margin: 40px 25px 0 25px;
   }
-  
+
   .main-container {
     height: 115px;
     width: 100%;
@@ -190,14 +213,29 @@ body {
     font-size: 20px;
     margin: 0 5px;
   }
-  
-  
+
+
   .main-containers { 
     /* test */
     font-size: 30px;
   }
+  
+  /* YouTube */
+  .youtube {
+    width: 260px;
+    height: 146.25px;
+  }
+  
+  /* shark */
+  .shark {
+    width: 250px;
+    height: 250px;
+  }
 }
 /* smartphone media end */
+
+
+
 
 
 
