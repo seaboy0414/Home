@@ -1,2 +1,2 @@
-# seaboy-official-website
-This is Seaboy's official wabsite.
+# seaboy official website
+This is a Seaboy's official wabsite.
